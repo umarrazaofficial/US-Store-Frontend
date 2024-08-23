@@ -1,4 +1,6 @@
 import React from 'react'
+import Banner1 from "../assets/banner1.jpg"
+import Banner2 from "../assets/banner2.jpg"
 
 const Carousel = () => {
     return (
@@ -6,13 +8,10 @@ const Carousel = () => {
             <div id="carouselExampleFade" className="carousel slide carousel-fade">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://gamestore.com.pk/wp-content/uploads/2023/01/2-1.jpg" className="d-block w-100" alt="..." />
+                        <img src={Banner1} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
-                        <img src="https://gamestore.com.pk/wp-content/uploads/2023/01/6-1.jpg" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="https://gamestore.com.pk/wp-content/uploads/2023/01/4-1.jpg" className="d-block w-100" alt="..." />
+                        <img src={Banner2} className="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
